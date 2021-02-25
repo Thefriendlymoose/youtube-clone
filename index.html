@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Embedding Images and Video</title>
+</head>
+<body>
+    <div class="page-container">
+        <header class="header">
+
+            <div class="left-header">
+                <nav class="left-nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                </nav>
+                <div class="logo-container">  
+                    <a class="logo" href="https://www.youtube.com">              
+                        <img class="youtube-logo" src="images/yt_icon_rgb.png">
+                        <h2>YouTube</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="search-bar-container">
+                    <form class="search-form">
+                        
+                        <input class="search-bar" placeholder="Search" type="text">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24" width="22"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                        </button>
+                        <svg class="microphone" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 15c1.66 0 2.99-1.34 2.99-3L15 6c0-1.66-1.34-3-3-3S9 4.34 9 6v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 15 6.7 12H5c0 3.42 2.72 6.23 6 6.72V22h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/></svg>
+                    </form>
+            </div>
+            <nav class="right-nav">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"/></svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 0 24 24" width="35"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>                    
+                </div>
+            </nav>
+        </header>
+        <div class="main-container">
+            <main class="video-comment-container">
+                <section class="video-container">
+                    <iframe src="https://www.youtube.com/embed/KuoHW5EiJdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <div class="under-video-container">
+
+                </div>
+                <section class="author-container"></section>
+                <section class="comment-container"></section>
+            </main>
+            <aside class="suggested-videos">
+                <div class="video-suggested-container">
+                    <div class="video-thumbnail-container">
+                        <img class="video-thumbnail" src="images/1.jpg">
+                    </div>
+                    <div class="video-text">
+                        <h2 class="video-title">Why did they make this???</h2>
+                        <h3 class="user-name">ShortCircuit</h3>
+                        <h3 class="views-monthsago">240K views - 22 hours ago</h3>
+                    </div>
+                </div>
+                <div class="suggested-search">
+                    <h4 class="search-item">All</h4>
+                    <h4 class="search-item">Laptops</h4>
+                    <h4 class="search-item">Apple</h4>
+                    <h4 class="search-item">Related</h4>
+                    <h4 class="search-item">From </h4>
+                    <div class="search-arrow">></div>
+                </div>
+                <div class="video-suggested-container">
+                    <div class="video-thumbnail-container">
+                        <img class="video-thumbnail" src="images/2.jpg">
+                    </div>
+                    <div class="video-text">
+                        <h2 class="video-title">Building a $500 AMD Gaming PC</h2>
+                        <h3 class="user-name">Linus Tech Tips</h3>
+                        <h3 class="views-monthsago">6.7M views - 7 months ago</h3>
+                    </div>
+                </div>
+                <div class="video-suggested-container">
+                    <div class="video-thumbnail-container">
+                        <img class="video-thumbnail" src="images/3.jpg">
+                    </div>
+                    <div class="video-text">
+                        <h2 class="video-title">M1 Mac Mini! Literally the BEST computer YOU can Buy!</h2>
+                        <h3 class="user-name">The Everyday Dad</h3>
+                        <h3 class="views-monthsago">53K views - 5 days ago</h3>
+                    </div>
+                </div>
+                <div class="video-suggested-container">
+                    <div class="video-thumbnail-container">
+                        <img class="video-thumbnail" src="images/4.jpg">
+                    </div>
+                    <div class="video-text">
+                        <h2 class="video-title">The Most Powerful Gaming Laptop Right Now</h2>
+                        <h3 class="user-name">Dave2D</h3>
+                        <h3 class="views-monthsago">837K views - 2 weeks ago</h3>
+                    </div>
+                </div>
+                <div class="video-suggested-container">
+                    <div class="video-thumbnail-container">
+                        <img class="video-thumbnail" src="images/5.jpg">
+                    </div>
+                    <div class="video-text">
+                        <h2 class="video-title">My iPhone 12 Mini Review!</h2>
+                        <h3 class="user-name">Dave2D</h3>
+                        <h3 class="views-monthsago">1.5M views - 3 months ago</h3>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
