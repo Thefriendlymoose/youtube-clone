@@ -283,6 +283,11 @@ body{
     color:rgb(121, 121, 121)
 }
 
+.subscribe-container{
+    margin-left: auto;
+    justify-self: flex-end;
+}
+
 .subscribe-button{
     background-color: rgb(197, 35, 35);
     border: none;
